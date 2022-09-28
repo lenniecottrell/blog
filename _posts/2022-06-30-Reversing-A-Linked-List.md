@@ -1,6 +1,6 @@
 ---
 layout: post
-title: #100DaysOfCode Round 2
+title: Reversing A Linked List
 ---
 
 #### I DID IT! I REVERSED A LINKED LIST ON MY OWN WITHOUT LOOKING UP SOLUTIONS!
@@ -11,12 +11,13 @@ During this round of #100DaysOfCode, I've been balancing my time between learnin
 
 That said, I got to one about reversing a linked list and decided I was gonna figure it out on my own using just my notes from the youtube lectures. I'm not worried about optimizing for efficiency (yet), I just want to be able to do it, and I want to figure it out myself.
 
-I ended up doing it in O(n^2) time by removing the last node of the input list and adding it to the end of a new list. I'm sure there's a way to reverse the list in place, but I'll deal with that later. 
- 
+I ended up doing it in O(n^2) time by removing the last node of the input list and adding it to the end of a new list. I'm sure there's a way to reverse the list in place, but I'll deal with that later.
+
 Some unrelated thoughts:
-- At first, the lists I made were circular for some reason - my `addLast` method was aggregating the nodes rather than just adding a new one to the end. 
+
+- At first, the lists I made were circular for some reason - my `addLast` method was aggregating the nodes rather than just adding a new one to the end.
 - I dealt with many iterations of "cannot read property 'next' of null" trying to make my loops work.
-- It was good practice writing classes and methods because I don't do that often in my side projects and it's a fundamental concept of OOP and Javascript. 
+- It was good practice writing classes and methods because I don't do that often in my side projects and it's a fundamental concept of OOP and Javascript.
 - I could call this "test driven development" because I wrote my tests first and let those guide my mistakes.
 - I got to the point where I could reverse a list with 2 nodes but not 3... turns out I needed to reset the `current` pointer to the head after the first node was removed.
 - My implementation doesn't actually solve the leetcode version of the problem because I defined my own `Node` and `LinkedList` classes, but I can probably adapt my solution to solve the leetcode version.
