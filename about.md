@@ -21,8 +21,3 @@ My skills include HTML, CSS, JavaScript, React, SQL, Git, and some Python. I lov
 I'm focused on improving my React skills at the moment, but I'm interested in diving much deeper into NodeJS and React-Native for mobile development.
 
 Things I want to learn more about eventually include animations with anime.js, 3D rendering with three.js, game development with JavaScript (maybe C#/Unity some day!), and machine learning with Python.
-
-### Contact me
-
-[lenniecottrell@gmail.com](mailto:lenniecottrell@gmail.com)
-[@lenniecottrell](https://www.twitter.com/lenniecottrell)
